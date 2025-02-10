@@ -1,0 +1,102 @@
+---
+title: "unixusecaseSG1"
+output: html_document
+date: "2025-01-23"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+----------------------------------------------------
+Code Tested in Unix Terminal
+
+Last login: Wed Jan 22 11:44:59 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+mac:~ apple$ echo hello world
+hello world
+mac:~ apple$ pwd
+/Users/apple
+mac:~ apple$ ls
+Applications			Library				Pictures
+Desktop				Movies				Public
+Documents			Music				Zotero
+Downloads			OneDrive - Rutgers University	iCloud Drive (Archive)
+mac:~ apple$ ls -l
+total 0
+drwx------@   5 apple  staff   160 Oct  7 13:49 Applications
+drwx------+  50 apple  staff  1600 Jan 22 16:21 Desktop
+drwx------+   5 apple  staff   160 Jan 14 00:05 Documents
+drwx------@  18 apple  staff   576 Jan 22 16:57 Downloads
+drwx------@ 101 apple  staff  3232 Dec  6 09:49 Library
+drwx------@   6 apple  staff   192 Jan 15 11:32 Movies
+drwx------@   6 apple  staff   192 Jan 15 11:32 Music
+lrwxr-xr-x    1 apple  staff    60 Sep 16 16:52 OneDrive - Rutgers University -> /Users/apple/Library/CloudStorage/OneDrive-RutgersUniversity
+drwx------@   6 apple  staff   192 Oct  8 15:36 Pictures
+drwxr-xr-x+   5 apple  staff   160 Jan 15 11:32 Public
+drwxr-xr-x@  12 apple  staff   384 Jan 22 10:15 Zotero
+drwx------   14 apple  staff   448 Oct  8 15:41 iCloud Drive (Archive)
+mac:~ apple$ ls -la
+total 56
+drwxr-x---+  30 apple  staff    960 Jan 22 11:52 .
+drwxr-xr-x    5 root   admin    160 Oct 27 17:48 ..
+srwxr-xr-x    1 apple  staff      0 Dec 27 15:33 .Box_EngineServer
+srwxr-xr-x    1 apple  staff      0 Dec 27 15:33 .Box_StreemToSync
+srwxr-xr-x    1 apple  staff      0 Dec 27 15:33 .Box_SyncToStreem
+srwxr-xr-x    1 apple  staff      0 Dec 27 15:33 .Box_UIServer
+-r--------    1 apple  staff      7 Sep 11  2023 .CFUserTextEncoding
+-rw-r--r--@   1 apple  staff  14340 Jan 22 10:30 .DS_Store
+-rw-r--r--    1 apple  staff      0 Nov  6 22:45 .Rapp.history
+-rw-r--r--@   1 apple  staff   1908 Jan 22 12:28 .Rhistory
+drwx------+ 842 apple  staff  26944 Jan 22 16:56 .Trash
+-rw-------@   1 apple  staff    193 Jan 22 11:45 .bash_history
+drwx------   19 apple  staff    608 Jan 22 23:37 .bash_sessions
+drwxr-xr-x    5 apple  staff    160 Jan 22 10:57 .cisco
+drwxr-xr-x@   3 apple  staff     96 Oct 29 13:25 .config
+drwx------    3 apple  staff     96 Sep 16 16:38 .cups
+drwxr-xr-x@   3 apple  staff     96 Oct 29 13:25 .local
+drwxr-xr-x    3 apple  staff     96 Jan 22 11:52 .vpn
+drwx------@   5 apple  staff    160 Oct  7 13:49 Applications
+drwx------+  50 apple  staff   1600 Jan 22 16:21 Desktop
+drwx------+   5 apple  staff    160 Jan 14 00:05 Documents
+drwx------@  18 apple  staff    576 Jan 22 16:57 Downloads
+drwx------@ 101 apple  staff   3232 Dec  6 09:49 Library
+drwx------@   6 apple  staff    192 Jan 15 11:32 Movies
+drwx------@   6 apple  staff    192 Jan 15 11:32 Music
+lrwxr-xr-x    1 apple  staff     60 Sep 16 16:52 OneDrive - Rutgers University -> /Users/apple/Library/CloudStorage/OneDrive-RutgersUniversity
+drwx------@   6 apple  staff    192 Oct  8 15:36 Pictures
+drwxr-xr-x+   5 apple  staff    160 Jan 15 11:32 Public
+drwxr-xr-x@  12 apple  staff    384 Jan 22 10:15 Zotero
+drwx------   14 apple  staff    448 Oct  8 15:41 iCloud Drive (Archive)
+mac:~ apple$ $ man ls
+-bash: $: command not found
+mac:~ apple$ man ls
+mac:~ apple$ 
+
+--------------------------------------------------------------------------------------------------
+Code tested in R studio next 
+
+
+

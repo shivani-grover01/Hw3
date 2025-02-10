@@ -1,0 +1,11 @@
+total 5576
+-rw-r--r--@ 1 apple  staff     1245 Apr 29  2024 TB_microbiome_annotation.txt
+-rwxr--r--@ 1 apple  staff    22503 Apr 29  2024 TB_microbiome_data.txt
+-rw-r--r--@ 1 apple  staff   524314 Apr 30  2024 TB_nanostring.txt
+-rw-r--r--@ 1 apple  staff        0 Jan 24 16:33 directory_contents.txt
+-rw-r--r--@ 1 apple  staff        0 Jan 24 16:26 file3.txt
+-rw-r--r--@ 1 apple  staff        9 Jan 24 16:30 files_list.txt
+-rw-r--r--@ 1 apple  staff       70 Jan 24 16:24 grep
+-rw-r--r--@ 1 apple  staff  1459935 Apr 30  2024 homework1_html.html
+-rw-r--r--@ 1 apple  staff     9198 Apr 30  2024 nanostring_annotation.txt
+-rw-r--r--@ 1 apple  staff   813612 Apr 29  2024 viral.fasta
